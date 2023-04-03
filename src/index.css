@@ -1,13 +1,146 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Mulish&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400&display=swap");
+/* ############################################  DEFAULT ############################################ */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 62.5%;
+}
+
+body a {
+  text-decoration: none;
+}
+body li {
+  list-style-type: none;
+}
+body p {
+  font-size: 1rem;
+}
+.btn {
+  border-radius: 10rem;
+}
+
+/* ########################################################### START ################################### */
+.myNav {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-size: 1.7rem;
+  /* color: #0f0e1e !important; */
+  color: rgba(33, 14, 86, 0.921) !important;
+}
+
+.navbar-nav {
+  font-size: 1.07rem;
+}
+
+.navbar .nav-link:hover {
+  color: #000000 !important;
+}
+
+.active {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #3498db !important;
+  border-bottom: 0.2px solid #565387;
+}
+
+/* ################################################# ABOUT ####################### */
+
+.aboutSection {
+  margin: 8rem 0;
+}
+
+/* ################################################# HOME  ####################### */
+.home {
+  width: 100%;
+  height: 85vh;
+}
+
+.img-fluid {
+  text-align: right;
+}
+.home .header-img img {
+  min-width: 250px;
+  min-height: 250px;
+}
+.home .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+/* ################################################# SERVICE ####################### */
+
+.cardss .img-fluid {
+  max-height: 200px;
+}
+
+body .service {
+  margin-bottom: 5rem;
+}
+/* ################################################# CONTACT ####################### */
+
+body .contact-us label {
+  font-size: 1rem;
+}
+
+.contact-us .btn {
+  border-radius: 0.4rem !important;
+}
+/* ################################################# FOOTER ####################### */
+
+footer {
+  font-size: 0.8rem;
+  color: #000000 !important;
+}
+
+/* ################################################# MEDIA QUERIES ####################### */
+
+@media (max-width: 991px) {
+  .home {
+    height: 80vh;
+    margin-top: 2rem;
+  }
+
+  .img-fluid {
+    text-align: start !important;
+  }
+  .active {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #3498db !important;
+    border-bottom: none;
+  }
+}
+@media (max-width: 768px) {
+  .home .container-fluid,
+  .container {
+    width: 100vw !important;
+  }
+}
+
+@media (max-width: 300px) {
+  .home .header-img {
+    margin-left: -1rem;
+  }
 }
