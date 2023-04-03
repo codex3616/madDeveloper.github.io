@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/madDeveloper.github.io/static/css/main.c6059c58.css",
+    "main.js": "/madDeveloper.github.io/static/js/main.ed13dc61.js",
+    "static/media/software.webp": "/madDeveloper.github.io/static/media/software.27dd16bb66e02ec245b4.webp",
+    "static/media/digital1.jpg": "/madDeveloper.github.io/static/media/digital1.a48f74909e95b04bb65e.jpg",
+    "static/media/home8.avif": "/madDeveloper.github.io/static/media/home8.84d003d378fc434299a6.avif",
+    "static/media/javajpg1.jpg": "/madDeveloper.github.io/static/media/javajpg1.18bbf0c09dd9bcaf74af.jpg",
+    "static/media/about.png": "/madDeveloper.github.io/static/media/about.2cfc7a4fa37f643c43a9.png",
+    "static/media/card1.webp": "/madDeveloper.github.io/static/media/card1.eddcfabf524aa80f399d.webp",
+    "index.html": "/madDeveloper.github.io/index.html",
+    "main.c6059c58.css.map": "/madDeveloper.github.io/static/css/main.c6059c58.css.map",
+    "main.ed13dc61.js.map": "/madDeveloper.github.io/static/js/main.ed13dc61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6059c58.css",
+    "static/js/main.ed13dc61.js"
+  ]
+}
