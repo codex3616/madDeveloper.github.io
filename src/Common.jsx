@@ -13,10 +13,12 @@ const Common = (props) => {
                   {props.text}
                   <span className=" text-primary"> MadDeveloper</span>
                 </h2>
-                <p>We are team of talented developer making websites...</p>
+                <p className="para mt-1">
+                  We are team of talented developer making websites...
+                </p>
                 <NavLink
                   to={props.redirect}
-                  className="btn btn-outline-primary text-capitalize mt-3"
+                  className="btn btn-outline-primary text-capitalize mt-1 mb-5"
                 >
                   {props.btnText}
                 </NavLink>

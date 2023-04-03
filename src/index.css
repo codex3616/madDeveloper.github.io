@@ -117,7 +117,7 @@ footer {
 /* ################################################# MEDIA QUERIES ####################### */
 
 @media (max-width: 991px) {
-  .home {
+  #header {
     height: 80vh;
     margin-top: 2rem;
   }
@@ -132,6 +132,9 @@ footer {
     font-size: 1.1rem;
     color: #3498db !important;
     border-bottom: none;
+  }
+  .home .header-img img {
+    max-height: 330px;
   }
 }
 @media (max-width: 768px) {
