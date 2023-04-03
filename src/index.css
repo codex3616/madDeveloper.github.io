@@ -121,7 +121,9 @@ footer {
     height: 80vh;
     margin-top: 2rem;
   }
-
+  footer {
+    margin-top: 2rem;
+  }
   .img-fluid {
     text-align: start !important;
   }
